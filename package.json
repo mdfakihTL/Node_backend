@@ -7,7 +7,6 @@
     "dev": "tsx watch src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js",
-    "vercel-build": "tsc",
     "db:init": "tsx src/database/init.ts",
     "db:seed": "tsx src/database/seed.ts",
     "db:reset": "tsx src/database/reset.ts"
@@ -44,3 +43,4 @@
     "typescript": "^5.3.3"
   }
 }
+
